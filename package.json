@@ -1,0 +1,19 @@
+{
+  "name": "assembly-bill-mcp",
+  "version": "1.0.0",
+  "description": "국회 열린국회정보(open.assembly.go.kr) Open API를 감싸는 MCP 서버 - 의안 심사/처리 현황 조회",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "zod": "^4.4.3"
+  }
+}
